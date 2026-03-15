@@ -19,10 +19,10 @@ public class Restaurante {
 
 
     @OneToOne
-    @JoinColumn(name = "user_id")  //usar essas anotações juntas sinaliza uma chave estrangeira
+    @JoinColumn(name = "user_id")
     private User user;
 
-    @OneToMany(mappedBy = "restaurante",cascade = CascadeType.ALL)//A lista no Java é um atalho. Ela não cria uma coluna no banco, mas avisa ao Hibernate: "Ei, quando eu pedir os produtos desse restaurante, vá na tabela de produtos e busque todos que tenham o ID dele".
-    private List<Produto> produtos=new ArrayList<>();  // o cascade quer dizer que se alguma coisa acontecer com restaurante prodduto tambem é interferido
+    @OneToMany(mappedBy = "restaurante",cascade = CascadeType.ALL)
+    private List<Produto> produtos=new ArrayList<>();
 }
 

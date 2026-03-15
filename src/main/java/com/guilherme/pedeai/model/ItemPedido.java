@@ -5,11 +5,6 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 
-//"Eu utilizei a entidade ItemPedido para garantir o histórico de dados.
-// Ela permite registrar a quantidade de cada produto em um pedido e, principalmente, s
-// alvar o preço unitário no momento da compra. Assim, se o restaurante alterar o
-// preço do produto no futuro, o valor registrado no pedido do cliente
-// permanece íntegro e imutável."
 @Entity
 @Table(name = "item_pedido")
 @Data

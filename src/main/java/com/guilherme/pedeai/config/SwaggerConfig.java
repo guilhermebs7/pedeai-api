@@ -12,8 +12,8 @@ public class SwaggerConfig {
     public OpenAPI customOpenAPI(){
         return new OpenAPI()
                 .info(new Info()
-                        .title("PedeAi API")
+                        .title("PEDEAI API")
                         .version("1.0")
-                        .description("Api do sistema PedeAi para gerenciamento de pedidos"));
+                        .description("Api do sistema PEDEAI para gerenciamento de pedidos"));
     }
 }
