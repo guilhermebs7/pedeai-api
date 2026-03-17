@@ -12,9 +12,11 @@ API REST desenvolvida para gerenciamento de pedidos e restaurantes, inspirada em
 - Ambiente dockerizado para execução da aplicação
 ---
 ## 🛠️ Tecnologias Utilizadas
-- **Backend:** Java, Spring Boot, Spring Security, JWT para autenticação, Hibernate, PostgreSQL
-- **Documentação:** Swagger
-- **Containerização:** Docker
+- **Backend:** Java, Spring Boot( Security, JWT, Hibernate)
+- **Banco de Dados:** PostgreSQL
+- **DevOps/Infra:** Docker & Docker Compose
+- **Documentação e testes:** Swagger, Postman
+
 ---
 ## 📄 Documentação da API
 Todas as rotas da aplicação estão documentadas utilizando Swagger, permitindo visualizar e testar os endpoints **públicos** diretamente pelo navegador.
