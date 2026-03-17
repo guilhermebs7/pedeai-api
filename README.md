@@ -66,7 +66,8 @@ src
 
 ## 🗄️ Modelagem do Banco de Dados
 
-<img width="1202" height="384" alt="Captura de tela 2026-03-14 194840" src="https://github.com/user-attachments/assets/7de6c3e5-a5c2-43c3-8cc6-341276133a51" />
+
+<img width="1310" height="379" alt="Captura de tela 2026-03-17 121846" src="https://github.com/user-attachments/assets/c5973fbc-1b51-47b0-9572-143fa80c38d8" />
 
 ---
 ## 🚀 Como executar o projeto
